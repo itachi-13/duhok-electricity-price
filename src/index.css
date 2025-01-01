@@ -67,7 +67,7 @@
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
-    padding-left: 20px;
+    padding: 0 20px;
 }
 
 .custome-amp input {
@@ -149,6 +149,6 @@ footer p a {
     }
 
     .custome-amp {
-        padding-left: 8px;
+        padding: 0 8px;
     }
 }
