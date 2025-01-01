@@ -32,7 +32,6 @@ const LineChart = () => {
         labels: labels,
         datasets: [
             {
-                label: "Data Trend (2018-2024)",
                 data: prices,
                 borderColor: "orange",
                 backgroundColor: "rgba(255, 165, 0, 0.2)",
