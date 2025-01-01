@@ -19,7 +19,10 @@ const Footer = () => {
                     {t("ameer_ibrahim")}
                 </a>
             </p>
-            <a target="_blank" href="">
+            <a
+                target="_blank"
+                href="https://github.com/itachi-13/duhok-electricity-price"
+            >
                 {t("source_code")}
             </a>
         </footer>
