@@ -7,7 +7,7 @@ const Footer = () => {
             <p>
                 {t("data_provided")}{" "}
                 <a target="_blank" href="https://uod.ac/staff/aza-hani-shukri/">
-                    {t("aza_hani")}
+                    {t("aza_shukri")}
                 </a>
             </p>
             <p>
