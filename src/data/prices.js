@@ -89,18 +89,18 @@ export const _2023 = [
 ];
 
 export const _2024 = [
-    { month: "01-2024", price: 17000 },
-    { month: "02-2024", price: 18000 },
+    { month: "01-2024", price: 20000 },
+    { month: "02-2024", price: 18250 },
     { month: "03-2024", price: 15500 },
-    { month: "04-2024", price: 12000 },
-    { month: "05-2024", price: 10500 },
-    { month: "06-2024", price: 14500 },
-    { month: "07-2024", price: 19000 },
-    { month: "08-2024", price: 20000 },
-    { month: "09-2024", price: 16250 },
-    { month: "10-2024", price: 14000 },
-    { month: "11-2024", price: 16500 },
-    { month: "12-2024", price: 22000 },
+    { month: "04-2024", price: 12500 },
+    { month: "05-2024", price: 11750 },
+    { month: "06-2024", price: 15250 },
+    { month: "07-2024", price: 17500 },
+    { month: "08-2024", price: 16500 },
+    { month: "09-2024", price: 13500 },
+    { month: "10-2024", price: 9750 },
+    { month: "11-2024", price: 12500 },
+    { month: "12-2024", price: 20250 },
 ];
 
 /** Total price of each year for 1 ampere */
