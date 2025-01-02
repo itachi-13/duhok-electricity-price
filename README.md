@@ -1,6 +1,6 @@
 # Overview
 
--   Provides electricity prices for private generators in Duhok city from 2018 to the present.
+-   Provides electricity prices for private generators in Duhok city from 2020 to the present.
 
 # Tech Stack
 

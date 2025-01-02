@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { Line } from "react-chartjs-2";
 import {
-    _2018,
-    _2019,
+    // _2018,
+    // _2019,
     _2020,
     _2021,
     _2022,
@@ -32,22 +32,22 @@ const MultiLineChart = () => {
         "12",
     ];
     const datasets = [
-        {
-            label: "2018",
-            data: _2018.map((entry) => entry.price),
-            borderColor: "blue",
-            backgroundColor: "transparent",
-            borderWidth: borderWidth,
-            pointRadius: pointRadius,
-        },
-        {
-            label: "2019",
-            data: _2019.map((entry) => entry.price),
-            borderColor: "orange",
-            backgroundColor: "transparent",
-            borderWidth: borderWidth,
-            pointRadius: pointRadius,
-        },
+        // {
+        //     label: "2018",
+        //     data: _2018.map((entry) => entry.price),
+        //     borderColor: "blue",
+        //     backgroundColor: "transparent",
+        //     borderWidth: borderWidth,
+        //     pointRadius: pointRadius,
+        // },
+        // {
+        //     label: "2019",
+        //     data: _2019.map((entry) => entry.price),
+        //     borderColor: "orange",
+        //     backgroundColor: "transparent",
+        //     borderWidth: borderWidth,
+        //     pointRadius: pointRadius,
+        // },
         {
             label: "2020",
             data: _2020.map((entry) => entry.price),

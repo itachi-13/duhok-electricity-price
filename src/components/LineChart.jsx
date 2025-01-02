@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { Line } from "react-chartjs-2";
 import {
-    _2018,
-    _2019,
+    // _2018,
+    // _2019,
     _2020,
     _2021,
     _2022,
@@ -16,8 +16,8 @@ const LineChart = () => {
     const screenWidth = window.innerWidth;
 
     const allYearsData = [
-        ..._2018,
-        ..._2019,
+        // ..._2018,
+        // ..._2019,
         ..._2020,
         ..._2021,
         ..._2022,
