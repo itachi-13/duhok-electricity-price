@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar.jsx";
 import LineChart from "./components/LineChart.jsx";
 import MultiLineChart from "./components/MultiLineChart.jsx";
 import Table from "./components/Table.jsx";
-// import Footer from "./components/Footer.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
     useEffect(() => {
@@ -18,7 +18,7 @@ function App() {
             <LineChart />
             <MultiLineChart />
             <Table />
-            {/* <Footer /> */}
+            <Footer />
         </>
     );
 }
