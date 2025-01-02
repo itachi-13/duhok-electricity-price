@@ -6,7 +6,10 @@ const Footer = () => {
         <footer>
             <p>
                 {t("data_provided")}{" "}
-                <a target="_blank" href="https://uod.ac/staff/aza-hani-shukri/">
+                <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/aza-shukri-19333620/"
+                >
                     {t("aza_shukri")}
                 </a>
             </p>
