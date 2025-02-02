@@ -8,6 +8,7 @@ import {
     _2022,
     _2023,
     _2024,
+    _2025,
 } from "../data/prices";
 
 const LineChart = () => {
@@ -23,6 +24,7 @@ const LineChart = () => {
         ..._2022,
         ..._2023,
         ..._2024,
+        ..._2025,
     ];
 
     const labels = allYearsData.map((item) => item.month);
