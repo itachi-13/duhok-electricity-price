@@ -105,7 +105,10 @@ export const _2024 = [
     { month: "12-2024", price: 20250 },
 ];
 
-export const _2025 = [{ month: "01-2025", price: 20000 }];
+export const _2025 = [
+    { month: "01-2025", price: 20000 },
+    { month: "02-2025", price: 19500 },
+];
 
 /** Total price of each year for 1 ampere */
 // const totalPrice2018 = _2018.reduce((total, item) => total + item.price, 0);
