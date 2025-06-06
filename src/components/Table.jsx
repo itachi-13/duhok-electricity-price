@@ -23,8 +23,13 @@ const Table = () => {
                 <input
                     type="number"
                     value={ampere}
+                    max={100}
                     min={1}
-                    onChange={(e) => setAmpere(Number(e.target.value))}
+                    onChange={(e) => {
+                        if (e.target.value <= 100) {
+                            setAmpere(Number(e.target.value));
+                        }
+                    }}
                 />
             </div>
             <table>
