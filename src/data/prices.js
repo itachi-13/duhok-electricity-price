@@ -113,6 +113,7 @@ export const _2025 = [
     { month: "05-2025", price: 13250 },
     { month: "06-2025", price: 10250 },
     { month: "07-2025", price: 16000 },
+    { month: "08-2025", price: 15000 },
 ];
 
 /** Total price of each year for 1 ampere */
