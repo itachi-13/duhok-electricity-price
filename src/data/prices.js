@@ -115,6 +115,7 @@ export const _2025 = [
     { month: "07-2025", price: 16000 },
     { month: "08-2025", price: 15000 },
     // { month: "09-2025", price: 11500 }, // مسيريك
+    // { month: "10-2025", price: 13750 }, // مسيريك
 ];
 
 /** Total price of each year for 1 ampere */
