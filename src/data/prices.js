@@ -118,6 +118,7 @@ export const _2025 = [
     // { month: "10-2025", price: 13750 }, // مسيريك
     // { month: "11-2025", price: 16250 }, // مسيريك
     // { month: "12-2025", price: 19500 }, // مسيريك
+    // { month: "01-2026", price: 23750 }, // مسيريك
 ];
 
 /** Total price of each year for 1 ampere */
