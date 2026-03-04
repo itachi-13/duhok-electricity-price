@@ -9,6 +9,7 @@ import {
     _2023,
     _2024,
     _2025,
+    _2026,
 } from "../data/prices";
 
 const MultiLineChart = () => {
@@ -94,6 +95,15 @@ const MultiLineChart = () => {
             label: "2025",
             data: _2025.map((entry) => entry.price),
             borderColor: "red",
+            backgroundColor: "transparent",
+            borderWidth: borderWidth,
+            pointRadius: pointRadius,
+            borderDash: [5, 5],
+        },
+        {
+            label: "2026",
+            data: _2026.map((entry) => entry.price),
+            borderColor: "orange",
             backgroundColor: "transparent",
             borderWidth: borderWidth,
             pointRadius: pointRadius,

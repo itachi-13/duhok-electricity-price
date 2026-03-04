@@ -114,12 +114,15 @@ export const _2025 = [
     { month: "06-2025", price: 10250 },
     { month: "07-2025", price: 16000 },
     { month: "08-2025", price: 15000 },
-    // { month: "09-2025", price: 11500 }, // مسيريك
-    // { month: "10-2025", price: 13750 }, // مسيريك
-    // { month: "11-2025", price: 16250 }, // مسيريك
-    // { month: "12-2025", price: 19500 }, // مسيريك
-    // { month: "01-2026", price: 23750 }, // مسيريك
-    // { month: "02-2026", price: 10000 }, // مسيريك
+    { month: "09-2025", price: 11500 }, // مسيريك
+    { month: "10-2025", price: 13750 }, // مسيريك
+    { month: "11-2025", price: 16250 }, // مسيريك
+    { month: "12-2025", price: 19500 }, // مسيريك
+];
+
+export const _2026 = [
+    { month: "01-2026", price: 23750 }, // مسيريك
+    { month: "02-2026", price: 10000 }, // مسيريك
 ];
 
 /** Total price of each year for 1 ampere */
@@ -131,6 +134,7 @@ const totalPrice2022 = _2022.reduce((total, item) => total + item.price, 0);
 const totalPrice2023 = _2023.reduce((total, item) => total + item.price, 0);
 const totalPrice2024 = _2024.reduce((total, item) => total + item.price, 0);
 const totalPrice2025 = _2025.reduce((total, item) => total + item.price, 0);
+const totalPrice2026 = _2026.reduce((total, item) => total + item.price, 0);
 
 export const tableData = [
     // { year: "2018", total_price: totalPrice2018 },
@@ -141,4 +145,5 @@ export const tableData = [
     { year: "2023", total_price: totalPrice2023 },
     { year: "2024", total_price: totalPrice2024 },
     { year: "2025", total_price: totalPrice2025 },
+    { year: "2026", total_price: totalPrice2026 },
 ];
