@@ -123,6 +123,7 @@ export const _2025 = [
 export const _2026 = [
     { month: "01-2026", price: 23750 }, // مسيريك
     { month: "02-2026", price: 10000 }, // مسيريك
+    { month: "03-2026", price: 23250 }, // مسيريك
 ];
 
 /** Total price of each year for 1 ampere */
